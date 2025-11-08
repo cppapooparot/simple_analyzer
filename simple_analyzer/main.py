@@ -15,6 +15,7 @@ interval = config.get("interval")
 sequence_length = config.get("sequence_length")
 
 analyzer = Analyzer()
+a = 1
 
 while True:
 	num = random.randint(1, 100)
